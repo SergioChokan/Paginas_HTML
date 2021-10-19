@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>AEMET</title>
+
+	<style type="text/css">
+		fieldset {
+			border-width: 3px; 
+			border-style: solid;
+			border-color: white;
+			width: 300px;
+			padding: 20px;
+		}
+
+	</style>
+
+</head>
+
+<body bgcolor="#A2D5EC">
+
+ <form method="get" action="http://www.aemet.es/buscador" >
+
+ 	<fieldset> 
+ 	<p> Elige el Pais: </p>
+ 	 <label for="Madrid">Madrid</label>
+ 	 	<input type="radio" id="Madrid" name="str" value="Madrid">
+ 	 <label for="Mostoles">Mostoles</label>
+ 	 	<input type="radio" id="Mostoles" name="str" value="Mostoles">
+ 	 <label for="Fuenlabrada">Fuenlabrada</label>
+ 	 	<input type="radio" id="Fuenlabrada" name="str" value="Fuenlabrada">
+
+ 	<p><input type="submit" value="Enviar" formtarget="_blank"></p>
+
+ </fieldset> 
+
+
+ </form>
+
+<br><br>
+
+<form method="get" action="http://www.aemet.es/buscador">
+
+ <fieldset> 
+ 	<p> Elige el Pais: </p>
+ 	
+ 	 <select name="str">
+ 	 	<option value="Madrid">Madrid</option>
+ 	 	<option value="Mostoles">Mostoles</option>
+ 	 	<option value="Fuenlabrada">Fuenlabrada</option>
+ 	 </select>
+
+ 	<p><input type="submit" value="Enviar" formtarget="_blank"></p>
+ </fieldset> 
+
+
+ </form>
+
+</body>
+</html>
