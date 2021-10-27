@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<style type="text/css">
+		
+		* {
+			font-family: Georgia;
+		}
+
+		.container {
+			background: #ccc;
+			border: solid 1px black;
+			width: 500px;
+			margin: 20px;
+			padding: 15px;
+		}
+
+	</style>
+</head>
+<body bgcolor="lightblue">
+
+<div class="container">
+<form method="POST" action="http://formadorestic.com/alumnosdaw/procesaformulario.php">
+	<p><b><label for="name">Nombre:</label></b></p>
+	<input  type="text" name="nombre" id="name" placeholder="Introduce aquí el nombre" size="30">
+	
+	<p><b><label for="mail">Email:</label></b></p>
+	<input type="email" name="email" id="mail" placeholder="Introduce aquí el correo" size="30">
+
+	<p><b><label for="edad">Edad:</label></b></p>
+	<input type="number" name="edad" id="edad" placeholder="Introduce aquí la edad" size="30">
+	
+	<p><b>Mayor o Menor:</b></p>
+	<p><input type="radio" name="mayormenor" value="Mayor de edad" id="mayormenor">Si</p>
+	<p><input type="radio" name="mayormenor" value="Menor de edad" id="mayormenor" checked>No</p>
+	
+	<input type="submit" value="Enviar">
+	</div>
+
+</form> 
+
+</body>
+</html>
