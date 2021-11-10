@@ -1,0 +1,45 @@
+body {
+    color:blue;
+    background-color: #CFC;
+    font-family: Georgia, Cambria, serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    color:#F00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 32px;
+}
+
+h2 {
+    color: #A00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 24px;
+}
+
+.datos_libre {
+    color: #060;
+}
+
+.azul {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.black {
+    color: #fff;
+    background-color: #000;
+    font-style: italic;
+}
+
+/*El texto "Internet" y la "Web" cuando actúan como sustantivos:
+El tamaño del texto: 20px.
+Texto en negrita.
+El texto "Hypertext Markup Language", "Cascading Style Sheets" y los acrónimos "HTML" y "CSS":
+El color del texto es blanco: #FFF.
+El color de fondo del texto es negro: #000.
+Texto en cursiva.
+*/
