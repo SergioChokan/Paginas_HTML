@@ -1,0 +1,28 @@
+* {
+    font-size: 20px;
+}
+
+ol {
+    list-style-type: lower-greek;
+
+}
+li:hover {
+    background-color:grey;
+}
+
+td{
+    padding: 5px;
+    padding-right: 15px;
+}
+
+td:hover {
+    background-color: violet;
+}
+
+th:hover {
+    background-color: red;
+}
+table {
+    border: dashed 3px black;
+    border-radius: 20px 20px 20px 20px;
+}
